@@ -22,7 +22,7 @@ Tailspin Toys quiere revisar de forma coherente los requisitos, la calidad del c
 
 Un agente personalizado es una versión especializada de Copilot definida en un perfil Markdown. El perfil describe el propósito, las instrucciones y las herramientas disponibles del agente. En este taller, definirás un rol de QA en `.github/agents/qa.agent.md` y lo seleccionarás en la aplicación.
 
-Las personalizaciones que has creado tienen funciones distintas. Las instrucciones del repositorio describen los estándares del equipo. La habilidad quality-checks reúne comprobaciones repetibles. MCP de Playwright proporciona herramientas de navegador. El perfil de QA indica a Copilot cómo usar esas capacidades para evaluar requisitos e informar de sus conclusiones. No las sustituye ni requiere otra sesión de agente.
+Las personalizaciones que has creado tienen funciones distintas. Las instrucciones del repositorio describen los estándares del equipo. La habilidad `quality-checks` reúne comprobaciones repetibles. MCP de Playwright proporciona herramientas de navegador. El perfil de QA indica a Copilot cómo usar esas capacidades para evaluar requisitos e informar de sus conclusiones. No las sustituye ni requiere otra sesión de agente.
 
 ## Crear el perfil de QA
 
@@ -38,6 +38,8 @@ Antes de abrir la PR de la funcionalidad, pedirás a Copilot que cree un perfil 
     ```
 
 ## Examinar el perfil
+
+Antes de usar el nuevo agente, revisa su perfil para confirmar que Copilot haya incluido el flujo de trabajo de QA y los límites previstos. Así evitarás que un perfil incompleto o demasiado amplio modifique la funcionalidad cuando solo quieres comprobarla.
 
 1. Abre **Changes** y selecciona `.github/agents/qa.agent.md`.
 2. Lee el frontmatter. `description` es obligatorio; `name` es opcional, pero incluirlo proporciona al agente un nombre visible claro.

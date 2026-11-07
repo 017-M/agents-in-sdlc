@@ -33,7 +33,7 @@ lastUpdated: 2026-09-16
    # macOS / Linux
    curl -fsSL https://aka.ms/install-azd.sh | bash
 
-   # Windows (PowerShell)
+   # Windows（PowerShell）
    winget install microsoft.azd
    ```
 

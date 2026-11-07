@@ -100,7 +100,7 @@ Has explorado cómo obtiene la aplicación contexto de los archivos de instrucci
 - has actualizado el archivo de instrucciones para garantizar que se sigan los estándares de programación.
 - has observado el efecto de los archivos de instrucciones en el código generado.
 
-A continuación, [personalizarás y ejecutarás la habilidad reutilizable quality-checks][next-lesson] para garantizar que lint y las pruebas se ejecuten de forma coherente.
+A continuación, [personalizarás y ejecutarás la habilidad reutilizable `quality-checks`][next-lesson] para garantizar que lint y las pruebas se ejecuten de forma coherente.
 
 ## Recursos
 

@@ -25,7 +25,7 @@ Tailspin Toys utiliza la habilidad `quality-checks` para las pruebas unitarias, 
 Las habilidades de agente reúnen instrucciones de tareas reutilizables, scripts ejecutables y recursos de apoyo que un agente carga cuando los necesita. En esencia, son una carpeta con el nombre de la habilidad y un archivo Markdown llamado `SKILL.md`. Este archivo contiene frontmatter con un nombre y una descripción que definen la habilidad, una introducción sobre lo que hace e indicaciones sobre cuándo debe invocarse. La carpeta también puede contener subcarpetas con scripts y otros recursos que utilizará la habilidad.
 
 > [!NOTE]
-> Una habilidad no necesita carpetas ni archivos adicionales. En nuestro ejemplo, la habilidad ejecutará comandos `npm` para iniciar las pruebas y los linters, así que no necesitamos archivos auxiliares.
+> Una habilidad no necesita carpetas ni archivos adicionales. En nuestro ejemplo, la habilidad ejecutará comandos `npm` para ejecutar las pruebas y los linters, así que no necesitamos archivos auxiliares.
 
 Las habilidades pueden residir en la carpeta `.github/skills` de un proyecto para convertirse en un recurso del repositorio que el resto del equipo pueda compartir y reutilizar, o en la carpeta raíz de Copilot, que suele ser `~/.copilot/skills`.
 
